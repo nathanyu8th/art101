@@ -6,7 +6,7 @@
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
-  }
+}
 
 h1{
   color: blueviolet;
@@ -21,9 +21,9 @@ p{
 
 }
 
-#content{
+#content2{
   background-color: aquamarine;
-  width: 1000px;
+  width: 750px;
   min-height: 200px;
   padding: 50px;
   margin: 0px;
