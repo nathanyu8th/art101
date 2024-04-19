@@ -4,3 +4,10 @@
   margin: 10px;
   max-width: 500px;
 }
+
+#selfie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
