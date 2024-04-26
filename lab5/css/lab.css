@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#car {
+  
+    float: right;
+    width: 334px;
+    border: 3px solid #73AD21;
+  
+}
