@@ -1,0 +1,60 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+#car {
+  
+    float: right;
+    width: 334px;
+    border: 3px solid #73AD21;
+  
+}
+
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
+}
+
+.transformAxis {
+  transform: rotateX(180deg);
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('../img/sekiro.jpg') 1 round;
+  
+}
+
+.reflection {
+  transform: rotateY(180deg);
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('../img/car.jpg') 1 round;
+  
+}
+
+@keyframes test {
+  from {background-color: red;
+    transform: scale(0.1);
+  }
+  to {background-color: yellow;
+    transform: scale(1);
+  }
+}
+
+/* The element to apply the animation to */
+.animation {
+  transform: scale(0.1);
+  background-color: red;
+  animation-name: test;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  background-color: yellow;
+  transform: scale(1);
+}
