@@ -8,15 +8,10 @@
     background-color: #DDD8C4;
   }
 
-
-.text p {
-  display: inline-block;
-  max-width: 60%;
-  margin: 3px;
-  padding: 5px 10px;
-  border-radius: 15px;
-  background-color: darkgray;
-  color: palegoldenrod;
-  font-family: sans-serif;
-  font-size: 0.8em;
+#car {
+  
+    float: right;
+    width: 334px;
+    border: 3px solid #73AD21;
+  
 }
