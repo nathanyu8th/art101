@@ -23,9 +23,13 @@ var mappedArray = arrayNum.map(function(x){
 
 console.log(mappedArray);
 
+
 var mapResults = arrayNum.map(addNum);
 
 console.log("mapResults: ", mapResults);
+
+$("#results").append("<p>" + "Map Results: " + mapResults + "</p>");
+$("#results").append("<p>" + " Mapped Array (Squaring each Number): " + mappedArray + "</p>");
 
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.

@@ -21,12 +21,19 @@
   font-size: 0.8em;
 }
 
-.screenshot {
-  border-style: solid;
-  border-width: 10px;
+@keyframes tester {
+  from {
+    transform: scale(0.1);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
-.codess {
-  border-style: dotted;
-  border-width: 5px;
+#test {
+  transform: scale(0.1);
+  animation-name: tester;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  transform: scale(1);
 }
